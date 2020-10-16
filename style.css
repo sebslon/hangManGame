@@ -6,6 +6,11 @@ body {
     font-weight: 700;
 }
 
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
 #container {
     width: 900px;
     margin: 0 auto;
@@ -49,4 +54,14 @@ body {
     background-color: #222222;
     color: white;
     border: 3px solid white;
+}
+
+.reset {
+    color: green;
+    cursor: pointer;
+    font-size: 48px;
+}
+
+.reset:hover {
+    color: white;
 }
